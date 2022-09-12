@@ -8,7 +8,9 @@
 
 ## General info
 The goal of this project is to build on previous work to design and implement algorithms for the Rational Closure 
-and to evaluate the extent to which these algorithms are scalable. Our approaches include ternary search and concurrency. 
+and to evaluate the extent to which these algorithms are scalable. Our approaches include ternary search and concurrency.
+
+Knowledge bases and defeasible implications (queries) must be formatted according to the propositional logic syntax recommended by the TweetyProject documentation (i.e., a ~> b). (http://tweetyproject.org/)
 	
 ## Technologies
 This project is created with/has the following dependencies:
