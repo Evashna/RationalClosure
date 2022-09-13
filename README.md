@@ -3,8 +3,8 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
-* [Replication Testing](*replication-testing)
+* [Run](#run)
+* [Testing](*testing)
 
 ## General info
 The goal of this project is to build on previous work to design and implement algorithms for the Rational Closure 
@@ -17,8 +17,8 @@ This project is created with/has the following dependencies:
 * Java version: 16.0.2
 * TweetyProject library and the built-in Sat4j version: 1.20
 	
-## Setup
-To run this project, first compile using Maven:
+## Run
+To run this project, first compile in the main directory using Maven (https://maven.apache.org/users/index.html):
 
 ```
 $ mvn package
@@ -30,7 +30,7 @@ $ java -cp target/rationalclosure-1.0-SNAPSHOT-jar-with-dependencies.jar org.rat
 ```
 where kb.txt is the name of the knowledge base that the defeasible queries are based on. 
 
-## Replication Testing
+## Testing
 First compile using Maven:
 
 ```
